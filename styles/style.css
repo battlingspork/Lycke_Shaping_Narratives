@@ -20,6 +20,14 @@ h2 {
   border-radius: 5px;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  position: sticky;
+  top: 60px;
+  z-index: 10;
+}
+.author {
+  position: static;
+  background-color: #e6d6c2;
+  box-shadow: none;
 }
 
 p {
